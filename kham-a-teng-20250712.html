@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>基隆崁仔頂散步</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom styles for Inter font and smooth scrolling */
+        body {
+            font-family: "Inter", sans-serif;
+            scroll-behavior: smooth;
+            /* Original background-color for body, now handled by Tailwind class */
+        }
+        /* Style for active navigation link (optional, for future JS implementation) */
+        .nav-link.active {
+            font-weight: bold;
+            color: #1d4ed8; /* Blue color for active link */
+        }
+    </style>
+</head>
+<body class="bg-emerald-50 text-gray-800">
+
+    <!-- Sticky Navigation Bar -->
+    <nav class="sticky top-0 z-50 bg-emerald-700 shadow-lg py-4 px-6 md:px-12 lg:px-24 rounded-b-lg">
+        <div class="container mx-auto flex flex-wrap justify-center md:justify-between items-center">
+            <h1 class="text-2xl font-bold text-white mb-4 md:mb-0">基隆崁仔頂深夜行</h1>
+            <ul class="flex flex-wrap justify-center gap-x-6 gap-y-2 text-lg">
+                <li><a href="#gathering" class="nav-link text-white hover:text-emerald-200 transition duration-300 ease-in-out px-3 py-1 rounded-md">集合</a></li>
+                <li><a href="#route" class="nav-link text-white hover:text-emerald-200 transition duration-300 ease-in-out px-3 py-1 rounded-md">建議路線</a></li>
+                <li><a href="#attire" class="nav-link text-white hover:text-emerald-200 transition duration-300 ease-in-out px-3 py-1 rounded-md">衣著</a></li>
+                <li><a href="#parking" class="nav-link text-white hover:text-emerald-200 transition duration-300 ease-in-out px-3 py-1 rounded-md">停車參考</a></li>
+                <li><a href="#accommodation" class="nav-link text-white hover:text-emerald-200 transition duration-300 ease-in-out px-3 py-1 rounded-md">住宿須知</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content Sections -->
+    <main class="container mx-auto p-6 md:p-10 lg:p-16">
+
+        <!-- 集合 Section -->
+        <section id="gathering" class="bg-amber-50 p-6 md:p-8 lg:p-10 rounded-lg shadow-md mb-10">
+            <h2 class="text-3xl font-extrabold text-emerald-800 mb-6 border-b-2 border-emerald-200 pb-2">集合</h2>
+            <div class="space-y-4 text-lg leading-relaxed">
+                <p><span class="font-semibold text-emerald-700">時間：</span>7/12（六） 23:50 出發</p>
+                <p>建議可以提早抵達基隆市區玩耍（住宿的朋友可先體驗十分鐘刀療，詳見住宿須知）。</p>
+                <p><span class="font-semibold text-emerald-700">地點：</span>中華郵輪文旅</p>
+                <p class="pl-4">20041基隆市仁愛區忠一路1之2號</p>
+                <p class="pl-4">
+                    <a href="https://maps.app.goo.gl/b5JHNizZjLqBwXmj9" target="_blank" rel="noopener noreferrer" class="text-emerald-600 hover:text-emerald-800 hover:underline transition duration-300 ease-in-out">地圖位置 (Google Maps)</a>
+                </p>
+                <p class="pl-4">
+                    <a href="https://hemusih.com/chinese-cruise-culture-and-tourism/" target="_blank" rel="noopener noreferrer" class="text-emerald-600 hover:text-emerald-800 hover:underline transition duration-300 ease-in-out">官方網站 (中華郵輪文旅)</a>
+                </p>
+            </div>
+        </section>
+
+        <!-- 建議路線 Section -->
+        <section id="route" class="bg-amber-50 p-6 md:p-8 lg:p-10 rounded-lg shadow-md mb-10">
+            <h2 class="text-3xl font-extrabold text-emerald-800 mb-6 border-b-2 border-emerald-200 pb-2">建議路線</h2>
+            <div class="space-y-4 text-lg leading-relaxed">
+                <p>從中華郵輪文旅出發，沿著孝一路往孝一忠一交叉路口（石硬港舊址、東和大樓），左轉仁五路，再左轉愛三路至基隆廟口，最後從燈籠路口 (仁三路)繞回來。</p>
+
+                <h3 class="text-2xl font-bold text-emerald-700 mt-6 mb-4">美食推薦 (營業時間可能變動，僅供參考)</h3>
+                <ul class="list-disc list-inside space-y-2 pl-4">
+                    <li>
+                        <span class="font-semibold">崁仔頂碳烤三明治</span> (營業至 01:00)
+                        <a href="https://maps.app.goo.gl/rx9kqro7Kte1rQBt6" target="_blank" rel="noopener noreferrer" class="text-emerald-600 hover:text-emerald-800 hover:underline ml-2">地圖</a>
+                    </li>
+                    <li>
+                        <span class="font-semibold">美女無名麵攤</span> (營業時間不一定)
+                        <a href="https://maps.app.goo.gl/rx9kqro7Kte1rQBt6" target="_blank" rel="noopener noreferrer" class="text-emerald-600 hover:text-emerald-800 hover:underline ml-2">地圖</a>
+                    </li>
+                    <li>
+                        <span class="font-semibold">基隆廟口-阿華炒麵</span> (營業至 06:00)
+                        <a href="https://maps.app.goo.gl/xmehaqtEBAcyge7F9" target="_blank" rel="noopener noreferrer" class="text-emerald-600 hover:text-emerald-800 hover:underline ml-2">地圖</a>
+                    </li>
+                    <li>
+                        <span class="font-semibold">基隆廟口-雞絲滷肉飯10號攤</span> (23:00-05:00)
+                        <a href="https://maps.app.goo.gl/mNVtCkHRbCG1egRKA" target="_blank" rel="noopener noreferrer" class="text-emerald-600 hover:text-emerald-800 hover:underline ml-2">地圖</a>
+                    </li>
+                </ul>
+
+                <h3 class="text-2xl font-bold text-emerald-700 mt-6 mb-4">其他美食</h3>
+                <ul class="list-disc list-inside space-y-2 pl-4">
+                    <li>
+                        <span class="font-semibold">何家當歸鴨</span> (22:00-05:00)
+                        <a href="https://maps.app.goo.gl/x1TCmBSUHMqmNcZH8" target="_blank" rel="noopener noreferrer" class="text-emerald-600 hover:text-emerald-800 hover:underline ml-2">地圖</a>
+                    </li>
+                    <li>
+                        <span class="font-semibold">漁行口</span> (07:00-05:00)
+                        <a href="https://maps.app.goo.gl/41ajGuJx9EcVowFAA" target="_blank" rel="noopener noreferrer" class="text-emerald-600 hover:text-emerald-800 hover:underline ml-2">地圖</a>
+                    </li>
+                </ul>
+                <p class="text-emerald-600 font-medium mt-6">
+                    * 若逛太快美女麵攤還沒出來，或想買漁獲，可以先回去休息，兩點過後再出來逛逛。
+                </p>
+            </div>
+        </section>
+
+        <!-- 衣著 Section -->
+        <section id="attire" class="bg-amber-50 p-6 md:p-8 lg:p-10 rounded-lg shadow-md mb-10">
+            <h2 class="text-3xl font-extrabold text-emerald-800 mb-6 border-b-2 border-emerald-200 pb-2">衣著</h2>
+            <div class="space-y-4 text-lg leading-relaxed">
+                <p>夜晚基隆微涼，建議攜帶薄外套。</p>
+                <p>由於魚市地面可能濕滑，請穿著雨鞋、拖鞋或任何防滑的鞋子，以確保安全。</p>
+            </div>
+        </section>
+
+        <!-- 停車參考 Section -->
+        <section id="parking" class="bg-amber-50 p-6 md:p-8 lg:p-10 rounded-lg shadow-md mb-10">
+            <h2 class="text-3xl font-extrabold text-emerald-800 mb-6 border-b-2 border-emerald-200 pb-2">停車參考</h2>
+            <div class="space-y-4 text-lg leading-relaxed">
+                <p><span class="font-semibold">基隆東岸停車場</span></p>
+                <p class="pl-4">
+                    <a href="https://maps.app.goo.gl/JYG7qQtKNT4b7tJBA?g_st=al" target="_blank" rel="noopener noreferrer" class="text-emerald-600 hover:text-emerald-800 hover:underline">地圖連結</a>
+                </p>
+                <p><span class="font-semibold">博愛地下停車場</span></p>
+                <p class="pl-4">
+                    <a href="https://maps.app.goo.gl/ZpbwctL7qPdqp4CJ6?g_st=al" target="_blank" rel="noopener noreferrer" class="text-emerald-600 hover:text-emerald-800 hover:underline">地圖連結</a>
+                </p>
+                <p class="text-gray-600 text-sm mt-4">感謝 Zoe 提供資訊！</p>
+            </div>
+        </section>
+
+        <!-- 住宿須知 Section -->
+        <section id="accommodation" class="bg-amber-50 p-6 md:p-8 lg:p-10 rounded-lg shadow-md mb-10">
+            <h2 class="text-3xl font-extrabold text-emerald-800 mb-6 border-b-2 border-emerald-200 pb-2">住宿須知</h2>
+            <div class="space-y-4 text-lg leading-relaxed">
+                <p><span class="font-semibold text-emerald-700">交誼空間：</span>房間就是專屬的交誼空間，大家要聊天吃東西都很方便喔！</p>
+
+                <p><span class="font-semibold text-emerald-700">關於吃喝：</span></p>
+                <ul class="list-disc list-inside space-y-2 pl-4">
+                    <li>雖然原本規定房間內不能帶外食，但老闆破例開放房間可飲食</li>
+                    <li>不能在床上吃東西，還有如果食物味道比較重，要開一下門讓味道散開。</li>
+                    <li>用餐完畢後，請將所有廚餘和垃圾使用垃圾袋包好，放置於房間外。</li>
+                    <li>基隆美食多樣，您們可以帶回房間享用，但請避免攜帶含酒精飲料入內。</li>
+                </ul>
+
+                <p><span class="font-semibold text-emerald-700">門禁：</span>旅宿沒有門禁時間限制，可安心前往崁仔頂，無論多晚回來都沒問題。</p>
+
+                <p><span class="font-semibold text-emerald-700">洗澡：</span>老闆為我們保留一整層樓，因此凌晨盥洗不會打擾到其他房客，提供兩間淋浴間專屬使用。</p>
+   
+                <p><span class="font-semibold text-emerald-700">個人用品：</span>請自備毛巾與牙刷，其他備品我們皆有提供。</p>
+
+                <p><span class="font-semibold text-emerald-700">房間小巧思：</span>房內的小桌子與小椅子皆可自由移動，使用完畢後請協助將其歸位。</p>
+
+                <p><span class="font-semibold text-emerald-700">特別福利：</span>我們將為您們安排最高樓層的背包客房，讓您們能邊欣賞美景邊享用美食，並一夜好眠。(有電梯)</p>
+
+                <p><span class="font-semibold text-emerald-700">刀療體驗：</span>我們贈送每人10分鐘的刀療服務，老闆說請務必體驗看看，非常放鬆舒適！</p>
+				</div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-emerald-700 text-white text-center py-6 mt-10 rounded-t-lg">
+        <p>&copy; 2025 基隆崁仔頂散步</p>
+    </footer>
+
+</body>
+</html>
